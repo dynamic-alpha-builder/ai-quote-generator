@@ -90,7 +90,7 @@ export async function POST(): Promise<NextResponse> {
         {
           role: 'user',
           content:
-            'Generate an original, deeply inspirational quote about growth, resilience, or human potential. Respond ONLY with a valid JSON object in this exact format, no markdown, no explanation: {"quote_text": "the quote here", "author": "Author Name"}. The author should be a plausible-sounding name.',
+            'Generate an original, deeply inspirational quote about growth, resilience, or human potential. Respond ONLY with a valid JSON object in this exact format, no markdown, no explanation: {"quote_text": "the quote here", "author": "Author Name"}',
         },
       ],
     })
